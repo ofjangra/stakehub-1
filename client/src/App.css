@@ -1,0 +1,138 @@
+nav{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top:0;
+  left: 0;
+  
+  padding: 20px;
+  z-index: 10;
+  background-color: #46685b;
+  box-shadow: 4px 4px 10px rgb(223, 223, 223);
+}
+
+nav ul{
+  list-style: none;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav li{
+  margin: 0 32px;
+  cursor: pointer;
+}
+
+
+header{
+  height: auto;
+  width:auto;
+  position: absolute;
+  top:80px;
+  left:80px;
+}
+
+
+.container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+ 
+}
+.dataTable{
+  height: auto;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 2px 2px 10px #cfcfcfad;
+  border-radius: 4px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.dataTable table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dataTable table td, .dataTable table th{
+  height: 50px;
+  text-align: center;
+}
+table td{
+  border-top: 1px solid rgb(221, 221, 221);
+  height: 42px;
+  text-align: center;
+}
+
+
+.createEntry{
+  height: 100vh;
+  min-height: 650px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputField{
+  height: auto;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin:10px 0;
+}
+.inputField input{
+  height: 36px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0 8px;
+  background: none;
+  border:1px solid gray;
+  margin: 8px 0 4px 0;
+}
+#order_type{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+#radios{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.link{
+  color: #000;
+  text-decoration: none;
+}
+.link :active{
+  color: #000;
+  text-decoration: none;
+}
+
