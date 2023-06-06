@@ -74,6 +74,11 @@ ordersRouter(app)
 
 app.use(express.static("dist"))
 
+
+app.get("/ping", (req, res) =>{
+    res.status(200).json("pong")
+})
+
 app.get("*", (req,res)=>{
     return res.sendFile(path.resolve(__dirname, "dist", "index.html"))
 })
