@@ -76,7 +76,7 @@ app.use(express.static("dist"))
 
 
 app.get("/ping", (req, res) =>{
-    res.status(200).json("pong")
+    res.status(200).json("pong pong")
 })
 
 app.get("*", (req,res)=>{
